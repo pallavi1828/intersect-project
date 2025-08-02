@@ -38,6 +38,7 @@ cd intersect-website/backend
 npm install
 node index.js
 
+```bash
 💻 Frontend Setup
 cd intersect-website
 npm install
@@ -47,6 +48,7 @@ App runs on http://localhost:3000
 📽️ Watch Demo Video
 📽️ **[Watch Demo Video](https://raw.githubusercontent.com/pallavi-kumar/intersect-website/main/demo/demo.mp4)**
 
+```bash
 📁 Folder Structure
 pgsql
 Copy
