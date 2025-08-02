@@ -53,17 +53,10 @@ npm start
 
 ---
 
-### 📽️ Watch Demo Video
+## 🎥 Project Demo
 
-**[📽️ Watch Demo Video](https://raw.githubusercontent.com/pallavi-kumar/intersect-website/main/demo/demo.mp4)**
+📽️ **[Watch Demo Video](https://raw.githubusercontent.com/pallavi1828/intersect-project/main/demo/demo.mp4)**
 
-> Or embed it using HTML (optional, doesn't work on GitHub preview):
-
-```html
-<video width="100%" height="auto" controls>
-  <source src="https://raw.githubusercontent.com/pallavi-kumar/intersect-website/main/demo/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 ```
 
 ---
