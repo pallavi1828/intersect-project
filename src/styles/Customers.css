@@ -1,0 +1,89 @@
+.customers-page {
+  padding-top: 80px; /* ensure it doesn’t overlap with navbar */
+  background-color: #f0f2f5;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.clients-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: -80px; /* Adjust if you have a fixed navbar height */
+}
+
+
+h1 {
+  text-align: center;
+  color: #003366;
+  margin: 30px 0 20px;
+  font-size: 32px;
+}
+
+.customer-section {
+  max-width: 1100px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 30px 40px;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.customer-section h2 {
+  color: #005b99;
+  font-size: 24px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.customer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 50px;
+}
+
+.customer-list.two-column {
+  columns: 2;
+}
+
+.customer-list li {
+  margin-bottom: 12px;
+  color: #333;
+  transition: all 0.3s ease;
+  padding-left: 20px;
+  position: relative;
+}
+
+.customer-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0073e6;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .customer-list.two-column {
+    columns: 1;
+  }
+
+  .customer-section {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,60 @@
+.evolution-wrapper {
+  padding: 60px 20px;
+  background-color: #f9fbfd;
+  text-align: center;
+}
+
+.evolution-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0b2b5e;
+  margin-bottom: 10px;
+}
+
+.evolution-subheading {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.stats-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background: #f4f6fa;
+}
+
+.stat-card {
+  background-color: white;
+  border: 2px solid #0b2b5e;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  width: 220px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.stat-card.active {
+  background-color: #0b2b5e;
+  color: white;
+  border-color: transparent;
+}
+
+.stat-card .icon {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.stat-card .number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stat-card .label {
+  font-size: 1rem;
+  margin-top: 5px;
+}

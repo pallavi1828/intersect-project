@@ -1,0 +1,210 @@
+.about-wrapper {
+  padding: 0 20px 30px;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;   /* prevents accidental horizontal scroll */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.about-banner-video {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+.about-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  max-height: 800px;
+}
+
+
+/* 🔷 Intro Section */
+.about-intro {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  border: 2px solid #003366;
+  padding: 40px;
+  border-radius: 12px;
+  margin: 60px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.about-intro-left img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-intro-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-intro-right h2 {
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.about-intro-right p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+/* 🧾 Story Box */
+.about-story {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 60px;
+
+}
+
+.about-story h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #003366;
+  text-align: center;
+}
+
+.about-story p {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* 🔵 Bouncing Bubble Network */
+.bubble-network-section {
+  background: #f4f4f4;
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 5px solid #003366;
+}
+
+.network-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #003366;
+  margin-bottom: 60px;
+  margin-top: -10px;
+}
+
+.bubble-network {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bubble-node {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: pre-line;
+  transition: transform 0.3s ease;
+}
+
+.bubble-node:hover {
+  transform: scale(1.05);
+}
+
+.bubble-node h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bubble-node p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Connectors (only on large screens) */
+.bubble-node::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background: #ccc;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.bubble-node:nth-child(4n)::before {
+  display: none;
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .bubble-network {
+    gap: 30px;
+  }
+
+  .bubble-node {
+    width: 160px;
+    height: 160px;
+    padding: 16px;
+  }
+
+  .bubble-node h4 {
+    font-size: 1rem;
+  }
+
+  .bubble-node p {
+    font-size: 0.85rem;
+  }
+
+  .bubble-node::before {
+    display: none;
+  }
+}
+/* Apply cursive, italic, and large size to all headings */
+.about-wrapper h2,
+.about-wrapper h3 {
+  font-family: 'Pacifico', cursive;  /* Or another handwriting font */
+  font-style: italic;
+  font-size: 2.6rem;  /* Adjust for size; you can tweak per heading level */
+  color: #002244;     /* Deep blue, still readable */
+  text-align: center; /* Optional: center headings */
+  line-height: 1.3;
+  margin-bottom: 20px;
+}

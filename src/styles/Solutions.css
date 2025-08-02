@@ -1,0 +1,268 @@
+.solutions-container {
+    padding: 10px 30px 60px;
+
+  background: #fff;
+  text-align: center;
+}
+
+.solutions-heading {
+  font-size: 2.6rem;
+  color: #015131;
+  margin-bottom: 10px;
+}
+
+.solutions-subtext {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* ✅ SINGLE clean solution card block */
+.solution-card {
+  width: 700%;
+  max-width: 700px;
+  height: 500px;  /* ← 🔽 reduce total card height */
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Image height reduced */
+.solution-card {
+  width: 100%;
+  max-width: 250px;
+  height: 260px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* ✅ center image vertically */
+  align-items: center;      /* ✅ center image horizontally */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.solution-card img {
+  width: 100%;               /* Make image large but not overflowing */
+  height: 180px;            /* Enough to fit within card */
+  object-fit: cover;      /* Don't crop image */
+  display: block;
+  margin: 0 auto;           /* Center horizontally */
+}
+
+.solution-title {
+  background:#011730;
+  padding: 10px 8px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;              /* ✅ Ensure title bar spans full width */
+}
+
+
+/* ✅ Responsive for smaller screens */
+@media (max-width: 768px) {
+  .solution-title {
+    font-size: 0.9rem;
+    height: 48px;        /* ← Adjust title bar height for mobile */
+  }
+
+  .solution-card img {
+    height: 150px;       /* ← Adjust image for smaller screen */
+  }
+
+  .solution-card {
+    height: 240px;       /* ← Total height reduced for mobile */
+  }
+}
+/* Add this to Solutions.css or global style */
+.shiny-hover {
+  transition: box-shadow 0.3s ease;
+}
+
+.shiny-hover:hover {
+  box-shadow: 0 0 15px 4px rgba(255, 255, 255, 0.6), 0 0 30px 6px #4facfe;
+}
+
+.shiny-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.shiny-sweep::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -75%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+  animation: shine 2.5s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+.shiny-pulse {
+  box-shadow: 0 0 0 rgba(79, 172, 254, 0.7);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 rgba(79, 172, 254, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 15px 5px rgba(79, 172, 254, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(79, 172, 254, 0.7);
+  }
+}
+/* ⬇ Full-width image section above heading (reused from Structured Cabling) */
+
+/* Top banner overlapping navbar */
+.full-bleed-image img.structured-banner {
+  width: 100%;
+  height: auto;
+  margin-top: -10px; /* Adjust based on your navbar height */
+  border-radius: 0;
+  display: block;
+}
+
+
+.structured-banner {
+  width: 400%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 60px;
+  animation: scroll-marquee 25s linear infinite;
+  width: fit-content;
+}
+
+.partner-logo {
+  width: 140px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.partner-logo img {
+  width: 100px;       /* ✅ Force same width for all logos */
+  height: auto;
+  max-height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* === INDIVIDUAL PAGE CARD OVERRIDE === */
+.solution-detail-page .solution-card {
+  width: 500%;
+
+  max-width: 300px;
+  height: 300px;
+}
+
+.solution-detail-page .solution-card img {
+
+  height: 300px;
+  object-fit: contain;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  overflow: hidden;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
