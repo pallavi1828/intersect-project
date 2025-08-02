@@ -32,30 +32,45 @@ A sleek, modern React-based web application built for **Intersect India Pvt. Ltd
 ## 🚀 Run Locally
 
 ### 🔧 Backend Setup
-🔧 Backend Setup
-bash
-Copy
-Edit
+
+```bash
 cd intersect-website/backend
 npm install
 node index.js
+```
 
-💻 Frontend Setup
-bash
-Copy
-Edit
+---
+
+### 💻 Frontend Setup
+
+```bash
 cd intersect-website
 npm install
 npm start
-# App runs on http://localhost:3000
+```
 
-📽️ Watch Demo Video
-📽️ **[Watch Demo Video](https://raw.githubusercontent.com/pallavi-kumar/intersect-website/main/demo/demo.mp4)**
+➡️ App runs on: **[http://localhost:3000](http://localhost:3000)**
 
-📁 Folder Structure
-bash
-Copy
-Edit
+---
+
+### 📽️ Watch Demo Video
+
+**[📽️ Watch Demo Video](https://raw.githubusercontent.com/pallavi-kumar/intersect-website/main/demo/demo.mp4)**
+
+> Or embed it using HTML (optional, doesn't work on GitHub preview):
+
+```html
+<video width="100%" height="auto" controls>
+  <source src="https://raw.githubusercontent.com/pallavi-kumar/intersect-website/main/demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+```
+
+---
+
+### 📁 Folder Structure
+
+```bash
 intersect-website/
 ├── backend/
 │   └── index.js (Express backend)
@@ -69,3 +84,8 @@ intersect-website/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
+
+---
+
+
