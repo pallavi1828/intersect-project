@@ -1,3 +1,6 @@
+Here is your full `README.md` content, properly formatted and cleanly structured in **Markdown** syntax:
+
+````markdown
 # Intersect India Pvt. Ltd – Official Website
 
 A sleek, modern React-based web application built for **Intersect India Pvt. Ltd.**, showcasing cybersecurity services, company information, and a smart interactive chatbot.
@@ -21,36 +24,15 @@ A sleek, modern React-based web application built for **Intersect India Pvt. Ltd
 
 ## 🛠️ Tech Stack
 
-| Frontend        | Backend       | Other Tools     |
-|----------------|---------------|-----------------|
-| React.js        | Node.js + Express | Git & GitHub     |
-| HTML/CSS        | Nodemailer (for mail API) | VS Code         |
-| JavaScript      | Body-parser         |                |
+| Frontend        | Backend            | Other Tools     |
+|----------------|---------------------|-----------------|
+| React.js        | Node.js + Express   | Git & GitHub    |
+| HTML/CSS        | Nodemailer (Mail API) | VS Code         |
+| JavaScript      | Body-parser         |                 |
 
 ---
 
 ## 🚀 Run Locally
-
-
-
-````## 📁Folder Structure
-
-
-```plaintext
-intersect-website/
-├── backend/
-│   └── index.js (Express backend)
-├── demo/
-│   └── demo.mp4 (Demo video)
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── App.js
-├── .gitignore
-├── package.json
-└── README.md
-````
 
 ### 🔧 Backend Setup
 
@@ -58,9 +40,7 @@ intersect-website/
 cd intersect-website/backend
 npm install
 node index.js
-```
-
----
+````
 
 ### 💻 Frontend Setup
 
@@ -78,7 +58,23 @@ npm start
 
 📽️ **[Watch Demo Video](https://github.com/user-attachments/assets/f253f084-ffe7-431b-8fae-5b47796b7b3f)**
 
+---
 
+## 📁 Folder Structure
+
+```plaintext
+intersect-website/
+├── backend/
+│   └── index.js (Express backend)
+├── demo/
+│   └── demo.mp4 (Demo video)
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+├── .gitignore
+├── package.json
+└── README.md
 ```
-
 
