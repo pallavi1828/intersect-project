@@ -32,11 +32,14 @@ A sleek, modern React-based web application built for **Intersect India Pvt. Ltd
 ## 🚀 Run Locally
 
 ## 🔧 Backend Setup
-
-```bash
+🔧 Backend Setup
+bash
+Copy
+Edit
 cd intersect-website/backend
 npm install
 node index.js
+
 💻 Frontend Setup
 bash
 Copy
@@ -46,11 +49,20 @@ npm install
 npm start
 ➡️ App runs on: http://localhost:3000
 
-🎥 Project Demo
+
 📽️ Watch Demo Video
 
+
+html
+Copy
+Edit
+<video width="100%" height="auto" controls>
+  <source src="https://github.com/user-attachments/assets/7d8943f6-d56a-4418-b7b7-4a3abb85956e">
+  Your browser does not support the video tag.
+</video>
+
 📁 Folder Structure
-plaintext
+bash
 Copy
 Edit
 intersect-website/
