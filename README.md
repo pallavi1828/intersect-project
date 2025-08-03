@@ -30,23 +30,7 @@ A sleek, modern React-based web application built for **Intersect India Pvt. Ltd
 
 ---
 
-## 📁 Folder Structure
 
-```plaintext
-intersect-website/
-├── backend/
-│   └── index.js (Express backend)
-├── demo/
-│   └── demo.mp4 (Demo video)
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── App.js
-├── .gitignore
-├── package.json
-└── README.md
-````
 
 ---
 
@@ -75,9 +59,24 @@ npm start
 ## 🎥 Project Demo
 
 📽️ **[Watch Demo Video](https://github.com/user-attachments/assets/7d8943f6-d56a-4418-b7b7-4a3abb85956e)**
-📂 *To replace this video with your own:*
-Place your own video file as `demo.mp4` inside the `/demo/` folder, then update the link above if needed.
+
 
 ---
 
+## 📁 Folder Structure
 
+```plaintext
+intersect-website/
+├── backend/
+│   └── index.js (Express backend)
+├── demo/
+│   └── demo.mp4 (Demo video)
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+├── .gitignore
+├── package.json
+└── README.md
+````
