@@ -31,35 +31,28 @@ A sleek, modern React-based web application built for **Intersect India Pvt. Ltd
 
 ## 🚀 Run Locally
 
-### 🔧 Backend Setup
-`
-bash
+## 🔧 Backend Setup
+
+```bash
 cd intersect-website/backend
 npm install
 node index.js
-`
-
----
-
-### 💻 Frontend Setup
-`
+💻 Frontend Setup
 bash
+Copy
+Edit
 cd intersect-website
 npm install
 npm start
-➡️ App runs on: **[http://localhost:3000](http://localhost:3000)**
-`
+➡️ App runs on: http://localhost:3000
 
----
+🎥 Project Demo
+📽️ Watch Demo Video
 
-## 🎥 Project Demo
-`
-📽️ **[Watch Demo Video](https://github.com/user-attachments/assets/7d8943f6-d56a-4418-b7b7-4a3abb85956e)
-`
-
----
-## 📁Folder Structure
-`plaintext
+📁 Folder Structure
+plaintext
+Copy
+Edit
 intersect-website/
 ├── backend/
 │   └── index.js (Express backend)
@@ -73,6 +66,3 @@ intersect-website/
 ├── .gitignore
 ├── package.json
 └── README.md
-`
-
----
