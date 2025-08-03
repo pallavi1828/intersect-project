@@ -55,14 +55,10 @@ npm start
 
 ## 🎥 Project Demo
 
-📽️ **[Watch Demo Video](https://raw.githubusercontent.com/pallavi1828/intersect-project/main/demo/demo.mp4)**
+📽️ **[Watch Demo Video](https://github.com/user-attachments/assets/f253f084-ffe7-431b-8fae-5b47796b7b3f)**
 
 
 ```
-
-https://github.com/user-attachments/assets/cbb87b98-9e6c-4157-9867-96f823be5fb4
-
-
 
 ---
 
