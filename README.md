@@ -60,11 +60,9 @@ npm start
 
 ```
 
----
+## 📁 Folder Structure
 
-### 📁 Folder Structure
-
-```bash
+```plaintext
 intersect-website/
 ├── backend/
 │   └── index.js (Express backend)
@@ -80,6 +78,4 @@ intersect-website/
 └── README.md
 ```
 
----
-
-
+```
